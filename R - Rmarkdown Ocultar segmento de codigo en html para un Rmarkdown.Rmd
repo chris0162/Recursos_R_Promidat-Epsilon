@@ -1,0 +1,13 @@
+---
+title: "Ocultar codigo en html"
+author: "Christian Araya"
+date: "2023-09-17"
+output: html_document
+---
+En un RMarkdown para ocultar un segmento de codigo y que no aparezca en el html se agrega {r, echo=FALSE}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

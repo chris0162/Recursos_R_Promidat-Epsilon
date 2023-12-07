@@ -1,0 +1,1 @@
+names(df_covid)[5] = "casos"

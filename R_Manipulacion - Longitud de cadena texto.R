@@ -1,0 +1,1 @@
+str_length(test[9,])

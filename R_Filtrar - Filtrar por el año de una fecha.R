@@ -1,0 +1,1 @@
+delitos <- delitos[year(delitos$fecha)>= 2010,]

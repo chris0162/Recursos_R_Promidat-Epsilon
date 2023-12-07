@@ -1,0 +1,13 @@
+---
+title: "Mostrar codigo pero no ejecutar"
+author: "Christian Araya"
+date: "2023-09-17"
+output: html_document
+---
+
+Mostrar el código pero no se quiere ejecutar ya que el tiempo de ejecución puede ser muy largo
+
+```{r setup, eval=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+

@@ -1,0 +1,1 @@
+transacciones_am2 %>% select(where(is.numeric))
